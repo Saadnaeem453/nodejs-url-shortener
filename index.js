@@ -4,6 +4,7 @@ import UrlRoute from "./routes/urlRoute.js"
 import dbConnect from "./config/db.js";
 
 const app = express();
+app.use(express.json())
 dotenv.config();
 dbConnect();
 const Port = process.env.PORT || 4000

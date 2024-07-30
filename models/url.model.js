@@ -11,7 +11,7 @@ redirectUrl:{
     type:String,
     required:true,
 },
-visitHistiry:[{timeStamp:{type:Number}}]
+visitHistory:[{timeStamp:{type:Number}}]
 },{timeStamps:true})
 
 
